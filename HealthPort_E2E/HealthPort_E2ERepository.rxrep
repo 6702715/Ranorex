@@ -1,0 +1,176 @@
+﻿<repository
+id="c993cf65-779b-458b-97c8-5bf2602bcc45"
+name="HealthPort_E2ERepository">
+	<codegen
+	classname="HealthPort_E2ERepository"
+	namespace="HealthPort_E2E">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b6176e85-0426-4858-be4e-6439b2858dd9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e93ace6d-0b2d-4682-9078-8960374539bd"
+		isrooted="True"
+		name="HealthPort_e2e"
+		refimgid="2f805252-086a-4acb-8123-97f80adab8cb"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="57f64922-9297-4146-af7b-615bfc7009b8"
+			name="Fnln"
+			refimgid="6077aab9-2680-4fce-825a-015a9429ed40"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'fnln']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'fnln']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'fnln']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bcce7c69-2da6-42e2-b1e0-bd1743ac279d"
+			name="Claim"
+			refimgid="2e3eed53-2f99-42d1-b01f-a077742614b7"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'claim']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'claim']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'claim']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="64388fe4-8a3a-499e-9ca2-4e6a437a440f"
+			name="PhoneNumber"
+			refimgid="44092f61-7e9a-485a-932f-81fa0c2a0ace"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="df7f04da-3a5c-4179-8a55-4db4104c7839"
+			name="Email"
+			refimgid="78f1dbc7-7d84-444e-89d4-e838881fbc2d"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'email']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="7c4a360f-de47-4565-a731-a9460ff3601b"
+			name="ClaimDetails"
+			refimgid="45d17f4b-2514-4ccc-ab4d-3a30252ed9d8"
+			refpath="/dom[@domain='192.168.56.3:5044']//textarea[#'claim_details']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//textarea[#'claim_details']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//textarea[#'claim_details']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="61db4798-5a4e-4c2a-83d5-202e18cb6740"
+			name="InputTagAge"
+			refimgid="cc4d1736-11f7-4150-8d4d-ca9e83a428c9"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'age']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'age']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'age']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f84bbfa6-80be-462e-aee0-afb78fb92ec5"
+			name="Priceusd"
+			refimgid="db81cdd3-c0de-4057-a43a-1fef454ff532"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'priceusd']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'priceusd']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'priceusd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8e8fcfe4-40d5-4f89-9ea9-0a60b6f56ca3"
+			name="Priceuah"
+			refimgid="89703834-6a88-4ed9-84dd-9a019535a3cf"
+			refpath="/dom[@domain='192.168.56.3:5044']//input[#'priceuah']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//input[#'priceuah']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//input[#'priceuah']
+			</item>
+			<basepath>
+				/dom[@domain='192.168.56.3:5044']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="63b8993f-1475-484b-8fbf-b266185b278a"
+		isrooted="False"
+		name="Booking"
+		searchtimeout="0ms">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="b0c88105-519b-48e0-9aa2-da3f1e3eb581"
+			name="Schedule"
+			refimgid="4cfa5aa3-17bf-432f-9aff-bc3369b3f594"
+			refpath="/dom[@domain='192.168.56.3:5044']//div[#'app']/div/main/div/div[2]/h1[@innertext='Schedule']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//div[#'app']//h1[@innertext='Schedule']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/main//h1[@innertext='Schedule']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="472d7a83-ccd0-4101-bd29-9076aa7ab259"
+			name="Submit"
+			refimgid="7ba0a566-2287-4bbc-a9ad-27e993632782"
+			refpath="/dom[@domain='192.168.56.3:5044']//div[#'app']/div/main/div/div[2]/div/form/button[@innertext='Submit']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//div[#'app']//button[@innertext='Submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/main//form[@action='http://192.168.56.3:5044/booking']/button[@innertext='Submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3b4de602-7d7d-4f34-9e93-6d13ff0630d0"
+			name="Booking"
+			refimgid="262a3352-e9c0-4f24-8856-379ba64e6c3f"
+			refpath="/dom[@domain='192.168.56.3:5044']//div[#'app']/div/header/div/div[3]/nav/div/div/ul/li[2]/a[@innertext='Booking']"
+			robustPath="/dom[@domain='192.168.56.3:5044']//div[#'app']//ul/li[2]/a[@innertext='Booking']"
+			searchtimeout="30000ms">
+				/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/header/div/div[3]/nav//ul/li[2]/a[@innertext='Booking']
+			</item>
+		</folder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

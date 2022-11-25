@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="254e6b23-f8ac-4efc-b33d-bbbb87777615"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="HealthPort_E2E">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://192.168.56.3:5044/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="c993cf65-779b-458b-97c8-5bf2602bcc45"
+	name="HealthPort_E2ERepository"
+	relativepath="HealthPort_E2ERepository.rxrep">
+		<codegen
+		classname="HealthPort_E2ERepository"
+		namespace="HealthPort_E2E">
+		</codegen>
+		<rootfolder
+		id="b6176e85-0426-4858-be4e-6439b2858dd9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HealthPort_E2E</name>
+    </assembly>
+    <members>
+        <member name="T:HealthPort_E2E.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:HealthPort_E2E.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the HealthPort_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HealthPort_E2E.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HealthPort_E2E.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.HealthPort_E2ERepository">
+            <summary>
+            The class representing the HealthPort_E2ERepository element repository.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the HealthPort_E2ERepository element repository.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.HealthPort_E2ERepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepository.HealthPort_e2e">
+            <summary>
+            The HealthPort_e2e folder.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepository.Booking">
+            <summary>
+            The Booking folder.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.HealthPort_E2ERepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder">
+            <summary>
+            The HealthPort_e2eAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HealthPort_e2e  folder.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Fnln">
+            <summary>
+            The Fnln item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.FnlnInfo">
+            <summary>
+            The Fnln item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Claim">
+            <summary>
+            The Claim item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.ClaimInfo">
+            <summary>
+            The Claim item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.PhoneNumber">
+            <summary>
+            The PhoneNumber item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.PhoneNumberInfo">
+            <summary>
+            The PhoneNumber item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.ClaimDetails">
+            <summary>
+            The ClaimDetails item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.ClaimDetailsInfo">
+            <summary>
+            The ClaimDetails item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.InputTagAge">
+            <summary>
+            The InputTagAge item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.InputTagAgeInfo">
+            <summary>
+            The InputTagAge item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Priceusd">
+            <summary>
+            The Priceusd item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.PriceusdInfo">
+            <summary>
+            The Priceusd item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.Priceuah">
+            <summary>
+            The Priceuah item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.HealthPort_e2eAppFolder.PriceuahInfo">
+            <summary>
+            The Priceuah item info.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder">
+            <summary>
+            The BookingFolder folder.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Booking  folder.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.Schedule">
+            <summary>
+            The Schedule item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.ScheduleInfo">
+            <summary>
+            The Schedule item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.Booking">
+            <summary>
+            The Booking item.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.HealthPort_E2ERepositoryFolders.BookingFolder.BookingInfo">
+            <summary>
+            The Booking item info.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:HealthPort_E2E.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the HealthPort_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HealthPort_E2E.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HealthPort_E2E.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HealthPort_E2E.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:HealthPort_E2E.Recording1.repo">
+            <summary>
+            Holds an instance of the HealthPort_E2ERepository repository.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HealthPort_E2E.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HealthPort_E2E.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HealthPort_E2E.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HealthPort_E2E.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

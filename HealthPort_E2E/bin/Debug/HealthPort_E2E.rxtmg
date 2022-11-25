@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="HealthPort_E2E"
+      id="bd984b97-8e9e-423f-adf1-f3698035187e"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="HealthPort_E2E"
+      id="bd984b97-8e9e-423f-adf1-f3698035187e"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

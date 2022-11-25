@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="33.15s"
+		durationms="33149"
+		type="root"
+		rid="33246bfc4ee6b0a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="admin"
+		rxversion="10.2.2.0"
+		host="DESKTOP-352C60I"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/25/2022 3:22:00 PM"
+		timestampiso="2022-11-25T12:22:00"
+		endtime="11/25/2022 3:22:33 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.538"
+			timeRelativeToTestModuleStartTime="00:15.538"
+			timeWallClock="15:22:15"
+			time="00:15.538"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'HealthPortHomeGoogleChrome.Pane' at 51;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'HealthPort | Home - Google']/container[@accessiblename>'HealthPort | Home - Google']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']/container[2]"
+				itempath="container[@accessiblename>'HealthPort | Home - Google']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']/container[2]"
+				fullname="HealthPort_E2ERepository.HealthPortHomeGoogleChrome.Pane"
+				id="906aa4baacdb41508898cd7242d1194b"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.896"
+			timeRelativeToTestModuleStartTime="00:19.896"
+			timeWallClock="15:22:20"
+			time="00:19.896"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'HealthPortHomeGoogleChrome.Pane' at 51;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'HealthPort | Home - Google']/container[@accessiblename>'HealthPort | Home - Google']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']/container[2]"
+				itempath="container[@accessiblename>'HealthPort | Home - Google']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']/container[2]"
+				fullname="HealthPort_E2ERepository.HealthPortHomeGoogleChrome.Pane"
+				id="906aa4baacdb41508898cd7242d1194b"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.343"
+			timeRelativeToTestModuleStartTime="00:20.343"
+			timeWallClock="15:22:20"
+			time="00:20.343"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.DivTagApp.Booking' at 80;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/header/div/div[3]/nav//ul/li[2]/a[@innertext='Booking']"
+				itempath="?/?/header/div/div[3]/nav//ul/li[2]/a[@innertext='Booking']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.DivTagApp.Booking"
+				id="3b4de6027d7d4f349e936d13ff0630d0"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.998"
+			timeRelativeToTestModuleStartTime="00:20.998"
+			timeWallClock="15:22:21"
+			time="00:20.998"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'HealthPortHomeGoogleChrome.AddressAndSearchBar' at 272;-27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'HealthPort | Home - Google']/container[@accessiblename>'HealthPort | Booking - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				itempath="container[@accessiblename>'HealthPort | Booking - Google']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				fullname="HealthPort_E2ERepository.HealthPortHomeGoogleChrome.AddressAndSearchBar"
+				id="41fc9625e444404da6582e569963f7eb"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.678"
+			timeRelativeToTestModuleStartTime="00:21.678"
+			timeWallClock="15:22:22"
+			time="00:21.678"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Recordin_f98f747f\Recordin_dccabe5b_rxlog.jpg"
+			errthumb="images_Recordin_f98f747f\Recordin_dccabe5b_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="97"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.986"
+			timeRelativeToTestModuleStartTime="00:21.986"
+			timeWallClock="15:22:22"
+			time="00:21.986"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Fnln' at 36;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'fnln']"
+				itempath=".//input[#'fnln']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Fnln"
+				id="57f6492292974146af7b615bfc7009b8"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="101"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.575"
+			timeRelativeToTestModuleStartTime="00:22.575"
+			timeWallClock="15:22:22"
+			time="00:22.575"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Fnln' at 36;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'fnln']"
+				itempath=".//input[#'fnln']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Fnln"
+				id="57f6492292974146af7b615bfc7009b8"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="105"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.159"
+			timeRelativeToTestModuleStartTime="00:23.159"
+			timeWallClock="15:22:23"
+			time="00:23.159"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'alex Blob' with focus on 'HealthPort_e2e.Fnln'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'fnln']"
+				itempath=".//input[#'fnln']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Fnln"
+				id="57f6492292974146af7b615bfc7009b8"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="109"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.544"
+			timeRelativeToTestModuleStartTime="00:23.544"
+			timeWallClock="15:22:23"
+			time="00:23.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Claim' at 40;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'claim']"
+				itempath=".//input[#'claim']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Claim"
+				id="bcce7c692da642e2b1e0bd1743ac279d"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="113"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.095"
+			timeRelativeToTestModuleStartTime="00:24.095"
+			timeWallClock="15:22:24"
+			time="00:24.095"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'aa bb cc' with focus on 'HealthPort_e2e.Claim'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'claim']"
+				itempath=".//input[#'claim']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Claim"
+				id="bcce7c692da642e2b1e0bd1743ac279d"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="117"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.484"
+			timeRelativeToTestModuleStartTime="00:24.484"
+			timeWallClock="15:22:24"
+			time="00:24.484"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.PhoneNumber' at 44;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']"
+				itempath=".//input[#'phoneNumber']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.PhoneNumber"
+				id="64388fe48a3a499e9ca24e6a437a440f"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="121"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.144"
+			timeRelativeToTestModuleStartTime="00:25.144"
+			timeWallClock="15:22:25"
+			time="00:25.144"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Add}{NumPad3}{NumPad7}' with focus on 'HealthPort_e2e.PhoneNumber'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']"
+				itempath=".//input[#'phoneNumber']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.PhoneNumber"
+				id="64388fe48a3a499e9ca24e6a437a440f"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="125"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.447"
+			timeRelativeToTestModuleStartTime="00:25.447"
+			timeWallClock="15:22:25"
+			time="00:25.447"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad5}{NumPad3}{NumPad3}{NumPad6}{NumPad7}{NumPad0}{NumPad2}{NumPad7}{NumPad2}{NumPad7}' with focus on 'HealthPort_e2e.PhoneNumber'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'phoneNumber']"
+				itempath=".//input[#'phoneNumber']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.PhoneNumber"
+				id="64388fe48a3a499e9ca24e6a437a440f"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="129"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.898"
+			timeRelativeToTestModuleStartTime="00:25.898"
+			timeWallClock="15:22:26"
+			time="00:25.898"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Email' at 45;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Email"
+				id="df7f04da3a5c41798a554db4104c7839"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="133"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.543"
+			timeRelativeToTestModuleStartTime="00:26.543"
+			timeWallClock="15:22:26"
+			time="00:26.543"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'user' with focus on 'HealthPort_e2e.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Email"
+				id="df7f04da3a5c41798a554db4104c7839"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="137"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.887"
+			timeRelativeToTestModuleStartTime="00:26.887"
+			timeWallClock="15:22:27"
+			time="00:26.887"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{RShiftKey down}@{RShiftKey up}gmail.com' with focus on 'HealthPort_e2e.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Email"
+				id="df7f04da3a5c41798a554db4104c7839"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="141"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.360"
+			timeRelativeToTestModuleStartTime="00:27.360"
+			timeWallClock="15:22:27"
+			time="00:27.360"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.ClaimDetails' at 75;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//textarea[#'claim_details']"
+				itempath=".//textarea[#'claim_details']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.ClaimDetails"
+				id="7c4a360fde474565a731a9460ff3601b"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="145"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.995"
+			timeRelativeToTestModuleStartTime="00:27.995"
+			timeWallClock="15:22:28"
+			time="00:27.995"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'aaa bbb ccc ddd' with focus on 'HealthPort_e2e'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']"
+				itempath="/dom[@domain='192.168.56.3:5044']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Self"
+				id="e93ace6d0b2d468290788960374539bd"
+				timeout="30000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="149"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.547"
+			timeRelativeToTestModuleStartTime="00:28.547"
+			timeWallClock="15:22:28"
+			time="00:28.547"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'HealthPort_e2e.InputTagAge' at 24;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'age']"
+				itempath=".//input[#'age']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.InputTagAge"
+				id="61db47985a4e4c2a83d5202e18cb6740"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="154"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.093"
+			timeRelativeToTestModuleStartTime="00:29.093"
+			timeWallClock="15:22:29"
+			time="00:29.093"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'HealthPort_e2e.InputTagAge' at 24;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'age']"
+				itempath=".//input[#'age']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.InputTagAge"
+				id="61db47985a4e4c2a83d5202e18cb6740"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="159"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.639"
+			timeRelativeToTestModuleStartTime="00:29.639"
+			timeWallClock="15:22:30"
+			time="00:29.639"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '50' with focus on 'HealthPort_e2e.InputTagAge'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'age']"
+				itempath=".//input[#'age']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.InputTagAge"
+				id="61db47985a4e4c2a83d5202e18cb6740"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="164"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.921"
+			timeRelativeToTestModuleStartTime="00:29.921"
+			timeWallClock="15:22:30"
+			time="00:29.921"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Priceusd' at 28;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'priceusd']"
+				itempath=".//input[#'priceusd']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Priceusd"
+				id="f84bbfa680be462eaee0afb78fb92ec5"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="168"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.528"
+			timeRelativeToTestModuleStartTime="00:30.528"
+			timeWallClock="15:22:30"
+			time="00:30.528"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}' with focus on 'HealthPort_e2e.Priceusd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'priceusd']"
+				itempath=".//input[#'priceusd']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Priceusd"
+				id="f84bbfa680be462eaee0afb78fb92ec5"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="172"
+				itemindex="21"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.757"
+			timeRelativeToTestModuleStartTime="00:30.757"
+			timeWallClock="15:22:31"
+			time="00:30.757"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '20' with focus on 'HealthPort_e2e.Priceusd'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'priceusd']"
+				itempath=".//input[#'priceusd']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Priceusd"
+				id="f84bbfa680be462eaee0afb78fb92ec5"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="176"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.005"
+			timeRelativeToTestModuleStartTime="00:31.005"
+			timeWallClock="15:22:31"
+			time="00:31.005"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -240 units.
+			</message>
+			<metainfo
+				itemindex="23"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="180"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.307"
+			timeRelativeToTestModuleStartTime="00:31.307"
+			timeWallClock="15:22:31"
+			time="00:31.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.Priceuah' at 50;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//input[#'priceuah']"
+				itempath=".//input[#'priceuah']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.Priceuah"
+				id="8e8fcfe440d54f899ea90a60b6f56ca3"
+				timeout="60000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="184"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.944"
+			timeRelativeToTestModuleStartTime="00:31.944"
+			timeWallClock="15:22:32"
+			time="00:31.944"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'HealthPort_e2e.DivTagApp.Submit' at 30;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/main//form[@action='http://192.168.56.3:5044/booking']/button[@innertext='Submit']"
+				itempath="?/?/main//form[@action='http://192.168.56.3:5044/booking']/button[@innertext='Submit']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.DivTagApp.Submit"
+				id="472d7a83ccd04101bd299076aa7ab259"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="188"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.510"
+			timeRelativeToTestModuleStartTime="00:32.510"
+			timeWallClock="15:22:32"
+			time="00:32.510"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Schedule') on item 'HealthPort_e2e.DivTagApp.Schedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/main//h1[@innertext='Schedule']"
+				itempath="?/?/main//h1[@innertext='Schedule']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.DivTagApp.Schedule"
+				id="b0c88105519b48e09aa2da3f1e3eb581"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="192"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.044"
+			timeRelativeToTestModuleStartTime="00:33.044"
+			timeWallClock="15:22:33"
+			time="00:33.044"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'InnerText' of element for item 'HealthPort_E2ERepository.HealthPort_e2e.DivTagApp.Schedule' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.56.3:5044']//div[#'app']/?/?/main//h1[@innertext='Schedule']"
+				itempath="?/?/main//h1[@innertext='Schedule']"
+				fullname="HealthPort_E2ERepository.HealthPort_e2e.DivTagApp.Schedule"
+				id="b0c88105519b48e09aa2da3f1e3eb581"
+				timeout="90000"
+				codefile="C:\Users\admin\Documents\Ranorex\RanorexStudio Projects\HealthPort_E2E\HealthPort_E2E\Recording1.cs"
+				codeline="193"
+				loglvl="Success"
+				itemindex="26">
+			</metainfo>
+		</item>
+	</activity>
+</report>

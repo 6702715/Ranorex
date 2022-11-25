@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="00a37804-fbd7-4bdc-8ae2-37c3294d678a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="HealthPort_E2E">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="0feff993-7e29-4056-a3cc-7a81dcb6db06">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e93ace6d-0b2d-4682-9078-8960374539bd"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c993cf65-779b-458b-97c8-5bf2602bcc45"
+	name="HealthPort_E2ERepository"
+	relativepath="HealthPort_E2ERepository.rxrep">
+		<codegen
+		classname="HealthPort_E2ERepository"
+		namespace="HealthPort_E2E">
+		</codegen>
+		<rootfolder
+		id="b6176e85-0426-4858-be4e-6439b2858dd9"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
